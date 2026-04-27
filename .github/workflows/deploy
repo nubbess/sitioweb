@@ -23,6 +23,12 @@ jobs:
           node-version: 20
 
       - run: npm install
+
       - run: npm run build
 
-      - uses: actions/uploa
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+      - uses: actions/deploy-pages@v4
+        id: deployment
