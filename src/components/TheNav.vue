@@ -1,6 +1,6 @@
 <template>
   <nav :class="{ scrolled: props.scrolled }">
-    <a class="nav-logo" href="#inicio">Julián Martínez Sänger</a>
+    <a class="nav-logo" href="#inicio">JMS</a>
 
     <ul class="nav-links" :class="{ open: menuOpen }">
       <li><a href="#inicio"     @click="menuOpen = false">{{ t.nav.inicio }}</a></li>
