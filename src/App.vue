@@ -10,7 +10,9 @@
 
   <Lightbox v-if="lightboxVideo" @close="lightboxVideo = null">
     <div class="lb-img">
-      <div class="play-ring"><div class="play-triangle"></div></div>
+      <div class="play-ring">
+        <div class="play-triangle"></div>
+      </div>
     </div>
     <div class="lb-bar"><span>{{ lightboxVideo.titulo }}</span></div>
   </Lightbox>
