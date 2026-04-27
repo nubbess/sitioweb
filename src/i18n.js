@@ -8,7 +8,7 @@ export const translations = {
       contacto: 'Contacto',
     },
     hero: {
-      eyebrow: 'Guitarrista Clásico & Compositor',
+      eyebrow: 'Guitarrista Clásico & Arreglista',
       subtitle: 'Bahía Blanca -> Salzburgo',
       cta_videos: 'Ver actuaciones',
       cta_contact: 'Contactar',
