@@ -1,0 +1,238 @@
+export const translations = {
+  es: {
+    nav: {
+      inicio: 'Inicio',
+      sobre: 'Sobre mí',
+      galeria: 'Galería',
+      videos: 'Videos',
+      contacto: 'Contacto',
+    },
+    hero: {
+      eyebrow: 'Guitarrista Clásico & Compositor',
+      subtitle: 'Bahía Blanca -> Salzburgo',
+      cta_videos: 'Ver actuaciones',
+      cta_contact: 'Contactar',
+    },
+    sobre: {
+      label: 'Sobre mí',
+      title: 'Una vida dedicada\na las ',
+      title_em: 'cuerdas',
+      p1: 'Guitarrista clásico especializado en música contemporánea, obras de Johann Sebastian Bach, y música argentina. Actualmente realizo un Máster en Performance en la Universität Mozarteum Salzburg con Laura Young.',
+      p2: "Me formé en el Conservatorio Provincial de Música de Bahía Blanca con Alberto D'Alessandro y Pablo Marfil, y participé en masterclasses con Máximo Pujol, Manuel Espinás, Laura Young y Ricardo Barceló, entre otros. Soy organizador del festival Guitarras en las Puertas del Sur y creador de Proyecto Bach.",
+      stats: [
+        { num: '5', label: 'Premios' },
+        { num: '8+', label: 'Festivales' },
+        { num: '3', label: 'Países' },
+      ],
+      badge_num: '2019',
+      badge_label: 'Primer premio internacional',
+    },
+    premios: {
+      label: 'Premios',
+      title: 'Reconocimientos',
+      items: [
+        '1.º Premio — Festival de Música Argentina para Guitarra (2024)',
+        'Finalista — Concurso Internacional María Luisa Anido (2021)',
+        '1.º Premio — King\'s Peak Music Competition, Guitarist (2020)',
+        '2.º Premio — Festival Internacional de Guitarra de Maldonado, Uruguay (2019)',
+        'Premio Alfredo Puig — Mejor interpretación de obra uruguaya, Maldonado (2019)',
+      ],
+    },
+    repertorio: {
+      label: 'Repertorio',
+      title: 'Especialización',
+      groups: [
+        {
+          heading: 'Johann Sebastian Bach',
+          text: 'Suites, preludios, fugas y obras para laúd transcritas para guitarra.',
+        },
+        {
+          heading: 'Música argentina & latinoamericana',
+          text: 'Piazzolla, Carlevaro, Guastavino, Pujol, Piazzolla. Arreglos de tango y milonga.',
+        },
+        {
+          heading: 'Repertorio segoviano',
+          text: 'Obras del canon guitarrístico del siglo XX.',
+        },
+      ],
+    },
+    videos: {
+      label: 'Actuaciones',
+      title: 'Últimos\nconciertos',
+    },
+    contacto: {
+      label: 'Contacto',
+      title: 'Trabajemos\njuntos',
+      lead: '¿Tienes un proyecto en mente? ¿Buscas música en vivo para tu evento? Escríbeme y lo hacemos realidad.',
+      nombre: 'Nombre',
+      email: 'Email',
+      asunto: 'Asunto',
+      asunto_opts: ['Concierto / Actuación', 'Clases de guitarra', 'Proyecto artístico', 'Otro'],
+      mensaje: 'Mensaje',
+      placeholder_nombre: 'Tu nombre',
+      placeholder_email: 'tu@email.com',
+      placeholder_mensaje: 'Cuéntame sobre tu proyecto...',
+      enviar: 'Enviar mensaje',
+      success: 'Gracias, te contactaré pronto.',
+    },
+    footer: 'Todos los derechos reservados',
+  },
+
+  en: {
+    nav: {
+      inicio: 'Home',
+      sobre: 'About',
+      galeria: 'Gallery',
+      videos: 'Videos',
+      contacto: 'Contact',
+    },
+    hero: {
+      eyebrow: 'Classical Guitarist & Arranger',
+      subtitle: 'Bahía Blanca -> Salzburg',
+      cta_videos: 'Watch performances',
+      cta_contact: 'Get in touch',
+    },
+    sobre: {
+      label: 'About',
+      title: 'A life devoted\nto the ',
+      title_em: 'guitar',
+      p1: 'Classical guitarist specialising in contemporary music, the works of Johann Sebastian Bach, and Argentine music. Currently pursuing an MA in Performance at the Universität Mozarteum Salzburg with Laura Young.',
+      p2: 'Trained at the Conservatorio Provincial de Música de Bahía Blanca under Alberto D\'Alessandro and Pablo Marfil, with masterclasses by Máximo Pujol, Manuel Espinás, Laura Young, and Ricardo Barceló, among others. Founder and organiser of Guitarras en las Puertas del Sur and creator of Proyecto Bach.',
+      stats: [
+        { num: '5', label: 'Prizes' },
+        { num: '8+', label: 'Festivals' },
+        { num: '3', label: 'Countries' },
+      ],
+      badge_num: '2019',
+      badge_label: 'First international prize',
+    },
+    premios: {
+      label: 'Awards',
+      title: 'Recognition',
+      items: [
+        '1st Prize — Festival de Música Argentina para Guitarra (2024)',
+        'Finalist — International Competition María Luisa Anido (2021)',
+        '1st Prize — King\'s Peak Music Competition, Guitarist (2020)',
+        '2nd Prize — International Guitar Festival Maldonado, Uruguay (2019)',
+        'Premio Alfredo Puig — Best performance of a Uruguayan work, Maldonado (2019)',
+      ],
+    },
+    repertorio: {
+      label: 'Repertoire',
+      title: 'Specialisation',
+      groups: [
+        {
+          heading: 'Johann Sebastian Bach',
+          text: 'Suites, preludes, fugues and lute works transcribed for guitar.',
+        },
+        {
+          heading: 'Argentine & Latin American music',
+          text: 'Barrios, Carlevaro, Guastavino, Pujol, Piazzolla. Tango and milonga arrangements.',
+        },
+        {
+          heading: 'Segovian repertoire',
+          text: 'Core works of the 20th-century guitar canon.',
+        },
+      ],
+    },
+    videos: {
+      label: 'Performances',
+      title: 'Recent\nconcerts',
+    },
+    contacto: {
+      label: 'Contact',
+      title: 'Let\'s work\ntogether',
+      lead: 'Have a project in mind? Looking for live music for your event? Write to me and let\'s make it happen.',
+      nombre: 'Name',
+      email: 'Email',
+      asunto: 'Subject',
+      asunto_opts: ['Concert / Performance', 'Guitar lessons', 'Artistic project', 'Other'],
+      mensaje: 'Message',
+      placeholder_nombre: 'Your name',
+      placeholder_email: 'you@email.com',
+      placeholder_mensaje: 'Tell me about your project...',
+      enviar: 'Send message',
+      success: 'Thank you — I\'ll be in touch soon.',
+    },
+    footer: 'All rights reserved',
+  },
+
+  de: {
+    nav: {
+      inicio: 'Start',
+      sobre: 'Über mich',
+      galeria: 'Galerie',
+      videos: 'Videos',
+      contacto: 'Kontakt',
+    },
+    hero: {
+      eyebrow: 'Klassischer Gitarrist & Arrangeur',
+      subtitle: 'Bahía Blanca -> Salzburg',
+      cta_videos: 'Auftritte ansehen',
+      cta_contact: 'Kontakt',
+    },
+    sobre: {
+      label: 'Über mich',
+      title: 'Ein Leben der\n',
+      title_em: 'Gitarre',
+      p1: 'Klassischer Gitarrist, spezialisiert auf zeitgenössische Musik, Werke von Johann Sebastian Bach, und argentinische Musik. Derzeit absolviere ich einen MA in Performance an der Universität Mozarteum Salzburg bei Laura Young.',
+      p2: 'Ausgebildet am Conservatorio Provincial de Música de Bahía Blanca bei Alberto D\'Alessandro und Pablo Marfil, mit Meisterkursen bei Máximo Pujol, Manuel Espinás, Laura Young und Ricardo Barceló, unter anderem. Gründer und Organisator des Festivals Guitarras en las Puertas del Sur und Schöpfer des Proyecto Bach.',
+      stats: [
+        { num: '5', label: 'Preise' },
+        { num: '8+', label: 'Festivals' },
+        { num: '3', label: 'Länder' },
+      ],
+      badge_num: '2019',
+      badge_label: 'Erster int. Preis',
+    },
+    premios: {
+      label: 'Auszeichnungen',
+      title: 'Preise',
+      items: [
+        '1. Preis — Festival de Música Argentina para Guitarra (2024)',
+        'Finalist — Internationaler Wettbewerb María Luisa Anido (2021)',
+        '1. Preis — King\'s Peak Music Competition, Guitarist (2020)',
+        '2. Preis — Internationales Gitarrenfestival Maldonado, Uruguay (2019)',
+        'Premio Alfredo Puig — Beste Interpretation eines uruguayischen Werkes, Maldonado (2019)',
+      ],
+    },
+    repertorio: {
+      label: 'Repertoire',
+      title: 'Schwerpunkte',
+      groups: [
+        {
+          heading: 'Johann Sebastian Bach',
+          text: 'Suiten, Präludien, Fugen und Lautenwerke für Gitarre transkribiert.',
+        },
+        {
+          heading: 'Argentinische & lateinamerikanische Musik',
+          text: 'Barrios, Carlevaro, Guastavino, Pujol, Piazzolla. Tango- und Milonga-Arrangements.',
+        },
+        {
+          heading: 'Segovia-Repertoire',
+          text: 'Kernwerke des gitarristischen Kanons des 20. Jahrhunderts.',
+        },
+      ],
+    },
+    videos: {
+      label: 'Auftritte',
+      title: 'Aktuelle\nKonzerte',
+    },
+    contacto: {
+      label: 'Kontakt',
+      title: 'Arbeiten wir\nzusammen',
+      lead: 'Hast du ein Projekt? Suchst du Live-Musik für deinen Anlass? Schreib mir und wir setzen es um.',
+      nombre: 'Name',
+      email: 'E-Mail',
+      asunto: 'Betreff',
+      asunto_opts: ['Konzert / Auftritt', 'Gitarrenunterricht', 'Künstlerisches Projekt', 'Sonstiges'],
+      mensaje: 'Nachricht',
+      placeholder_nombre: 'Dein Name',
+      placeholder_email: 'du@email.com',
+      placeholder_mensaje: 'Erzähl mir von deinem Projekt...',
+      enviar: 'Nachricht senden',
+      success: 'Danke — ich melde mich bald.',
+    },
+    footer: 'Alle Rechte vorbehalten',
+  },
+}
